@@ -1,0 +1,103 @@
+body{
+    background-image: url(laura-wielo-133931.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: wheat;
+}
+
+#header_height{
+    height: 100vh;
+    
+}
+
+
+
+footer{
+    font-size: 70px;
+    text-align:center;
+}
+
+
+header{
+    height: 100vh;
+    position: relative;
+}
+
+header p {
+    position:absolute;
+    bottom:20px;
+}
+
+header h1 {
+    position:absolute;
+    bottom:60px;
+}
+
+
+nav{
+    line-height: 25px;
+    position:fixed;
+    width: 100%;
+    background: white;
+    color:black;
+    opacity:0.75;
+
+}
+
+[id^=project]{
+    height: 500px;
+}
+
+
+#project1{
+    background-image: url(pablo-heimplatz-243307.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+#project2{
+    background-image: url(jorge-gordo-205017.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+#project3{
+    background-image: url(anthony-delanoix-15928.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+#project4{
+    background-image: url(william-white-37151.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+#project1:after,
+#project2:after,
+#project3:after,
+#project4:after{
+    content: "";
+    display:block;
+    width: calc(100%);
+    height: 500px;
+    background:white;
+    opacity:0.3;
+    position: absolute;
+    top:0px;
+    left:0px;
+}
+
+#project1:hover:after,
+#project2:hover:after,
+#project3:hover:after,
+#project4:hover:after{
+    display:none;
+}

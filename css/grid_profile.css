@@ -1,0 +1,39 @@
+body{
+    background-image: url(laura-wielo-133931.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+nav{
+    line-height: 25px;
+    position:fixed;
+    width: 100%;
+    background: white;
+    color:black;
+    opacity:0.75;
+
+}
+
+a{
+    color: white;
+}
+a:hover{
+    color: wheat;
+}
+
+author img{
+    margin: 0 auto;
+    height:200;
+    border-radius: 50%;
+}
+
+
+
+
+footer{
+    font-size: 70px;
+    text-align: center;
+}
+
+
