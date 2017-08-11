@@ -15,7 +15,7 @@ body {
 }
 
 .row{
-    border:1px solid red;
+
 }
 
 .row:after{
@@ -28,7 +28,7 @@ body {
     float:left;
     width:100%;
     padding:15px;
-    border:2px black solid;
+
 }
 
 @media screen and (max-width:768px){
@@ -161,7 +161,7 @@ body {
 
 @media screen and (min-width:1200px) {
     .container{
-        width: 1170px;
+        width: 100%;
     }
         .col-lg-1{
             width: calc(100% * 1 / 12);

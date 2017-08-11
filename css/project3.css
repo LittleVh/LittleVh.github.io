@@ -1,0 +1,40 @@
+#photo{
+    background-image: url(anthony-delanoix-15928.jpg);
+    background-size: cover;
+    height: 552px;
+    border-radius: 50px 50px 600px 50px;
+    font-size: 20px;
+}
+
+main{
+    padding-top:55px;
+
+}
+
+
+#info1{
+    font-size: 30px;
+    position: absolute;
+    right:0;
+    top: 260px;
+    text-align: center; 
+
+}
+#info2{
+    font-size: 30px;
+    position: absolute;
+    right:50px;
+    top: 360px;
+    text-align: center; 
+
+}
+
+#info3{
+    font-size: 30px;
+    position: absolute;
+    right:0px;
+    top: 460px;
+    text-align: center; 
+
+}
+

@@ -1,33 +1,8 @@
-body{
-    background-image: url(laura-wielo-133931.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-a{
-    color: white;
-}
-
-a:hover{
-    color: wheat;
-}
-
 #header_height{
     height: 100vh;
-    
 }
-
-
-
-footer{
-    font-size: 70px;
-    text-align:center;
-}
-
-
 header{
     height: 100vh;
-    position: relative;
 }
 
 header p {
@@ -40,21 +15,9 @@ header h1 {
     bottom:60px;
 }
 
-
-nav{
-    line-height: 25px;
-    position:fixed;
-    width: 100%;
-    background: white;
-    color:black;
-    opacity:0.75;
-
-}
-
 [id^=project]{
     height: 500px;
 }
-
 
 #project1{
     background-image: url(pablo-heimplatz-243307.jpg);
@@ -100,4 +63,10 @@ nav{
 #project3:hover:after,
 #project4:hover:after{
     display:none;
+}
+
+main a{
+    position: absolute;
+    right:10px;
+    bottom:10px;
 }

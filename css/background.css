@@ -1,0 +1,60 @@
+body{
+    background-image: url(laura-wielo-133931.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+a{
+    color: white;
+    text-decoration:none;
+}
+
+a:hover{
+    color: wheat;
+}
+
+nav a{
+    color:black;
+}
+
+
+
+
+.navlist>li, .level_2>li{
+ display:inline-block; 
+ position:relative;
+}
+
+.level_2{
+ position:absolute;
+ top:-1000px;
+ left:-40px;
+ height:20px;
+	
+}
+
+.navlist>li:hover .level_2{
+ top:10px;
+}
+
+
+nav a:hover{
+    color:crimson;
+}
+
+footer{
+    font-size: 50px;
+    text-align:center;
+}
+
+nav{
+    overflow: auto;
+    line-height: 25px;
+    position:fixed;
+    top:0;
+    width: 100%;
+    background: white;
+    color:black;
+    opacity:0.75;
+
+}

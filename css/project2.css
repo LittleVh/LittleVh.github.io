@@ -1,0 +1,16 @@
+#photo{
+    background-image: url(jorge-gordo-205017.jpg);
+    background-size: cover;
+    height: 552px;
+    border-radius: 50px 50px 500px 50px;
+    font-size: 20px;
+}
+
+main{
+    padding-top: 55px;
+}
+
+#info{
+    font-size: 30px;
+}
+

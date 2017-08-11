@@ -1,0 +1,17 @@
+
+
+author img{
+    margin: 0 auto;
+    height:200;
+    border-radius: 50%;
+    border: 2px snow dashed;
+}
+
+author h2{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
